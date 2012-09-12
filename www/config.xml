@@ -3,10 +3,10 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.airgames.PhoneGapTest"
         version   = "0.0.1">
-    <name>Air Games Beta</name>#
+    <name>Fun Land</name>#
 
     <description>
-      A Beta Version of Air Games running navtively on devices.
+      Atanas's Community running in a native wrapper.
     </description>
 
     <author href="http://airg.com" email="patrickl@airg.com">
