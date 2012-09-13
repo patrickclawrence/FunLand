@@ -3,7 +3,7 @@ Array.prototype.indexOf=function(b){if(b instanceof Function){for(var a=0,c=this
 var GC={android:navigator&&navigator.userAgent&&navigator.userAgent.match(/Android/)?1:0,apple:navigator&&navigator.userAgent&&navigator.userAgent.match(/Mac OS/)?1:0,supportTouch:"ontouchstart"in document.documentElement,supportLS:"undefined"!=typeof localStorage,
 
 Core:{
-	_prefix:"",
+	_prefix:"http://c.airgames.com",
 	_included:{},_pending:{},_executing:{},revision:function(){return isNaN(parseInt("20120913165023"))?(new Date).getTime():"20120913165023"},sdk:function(){return typeof SDK!="undefined"||parent.document!=document&&window.parent.AG!=
 
 null},executing:function(b){GC.Core._executing[b]=true},executed:function(b){GC.Core._included[b]=true;delete GC.Core._executing[b];if(b in GC.Core._pending){var a=GC.Core._pending[b];delete GC.Core._pending[b];for(b=0;b<a.length;b++)a[b]()}}}};
