@@ -171,7 +171,9 @@ var Hookt = {
 
 GC.Core.executing("/gc/sm/static/libs/Nsc.js");
 
-var deps = ["http://c.airgames.com/gc/sm/static/libs/NscCache.js", "http://c.airgames.com/gc/sm/static/libs/utils.js", "http://c.airgames.com/gc/sm/static/libs/jhttp.js", "http://c.airgames.com/gc/sm/static/libs/jquery-cookie.js"];
+//var deps = ["http://c.airgames.com/gc/sm/static/libs/NscCache.js", "http://c.airgames.com/gc/sm/static/libs/utils.js", "http://c.airgames.com/gc/sm/static/libs/jhttp.js", "http://c.airgames.com/gc/sm/static/libs/jquery-cookie.js"];
+var deps = ["js/NscCache.js", "js/utils.js", "js/jhttp.js", "js/jquery-cookie.js"];
+
 if (Tuber._useWebSocket && typeof(io)=="undefined") deps.push("/socket.io/socket.io.js");
 
 GC.Core.include(deps, function($) {
